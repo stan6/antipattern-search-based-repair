@@ -4,6 +4,7 @@
 <h1 style="text-align:center">Prevalence of Antipattern for  GenProg AE in the GenProg benchmarks</h1>
 As GenProg generates patches in the <a href="https://people.eecs.berkeley.edu/~necula/cil/">CIL</a> format, the following generated patches (in 3rd column) may appear to be significantly different from the original source code (in 2nd column) due to the C to CIL conversion. <br>Due to the difficulties in analyzing the patches (in CIL format) generated for the original <a href="http://dijkstra.cs.virginia.edu/genprog/resources/genprog-ase2013-results.zip">AE experiments</a>, we obtain the following data by re-running original GenProg in our experiments with option "--label-repair" to mark the repaired location to understand the changes between the original C source code and the repaired CIL file. We recommend using this option (i.e., "--label-repair") for users who are interested in running GenProg and understanding the generated patches.    
 <br>*Note that the text highlighted in green means addition of statement while the text highlighted in red means removal of statement
+<br>*As GenProg doesn't generate patch that modifies conditional statement, the "Anti-append Trivial Conditions" is not applicable for GenProg, thus it is not show in the table below.
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:1px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
@@ -13,7 +14,7 @@ b {
     font-weight: bold;
 }
 th {
-    background-color: #3399FF;
+    background-color: black;
     color: white;
 }
 </style>
