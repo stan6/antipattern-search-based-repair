@@ -181,14 +181,16 @@ th {
   text-align: left;
   border-bottom: 1px dashed #b5e853;
   border-top: 1px solid yellow;
-
+  border-left: 1px solid yellow;
+  border-right: 1px solid yellow;
   padding: 5px 10px;
 }
 
 td {
   padding: 5px 10px;
-  border: 2px solid yellow;
-
+  border-top: 1px solid yellow;
+  border-left: 1px solid yellow;
+  border-right: 1px solid yellow;
 }
 
 hr {
