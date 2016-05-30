@@ -174,7 +174,7 @@ pre {
 table {
   width: 100%;
   margin: 0 0 20px 0;
-  border: 2px solid yellow;
+  border-collapse: collapse;
 }
 
 th {
