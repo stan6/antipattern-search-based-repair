@@ -174,7 +174,7 @@ pre {
 table {
   width: 100%;
   margin: 0 0 20px 0;
-  border-color: 1px solid yellow;
+  border: 2px solid yellow;
 }
 
 th {
@@ -187,7 +187,7 @@ th {
 
 td {
   padding: 5px 10px;
-  border: 1px yellow;
+  border: 2px solid yellow;
 
 }
 
